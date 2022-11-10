@@ -1,0 +1,174 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: auto;
+    background: scroll;
+
+}
+.header{
+    background-color: #1f2937;
+    color: white;
+    padding: 8px;
+    
+}
+
+.links
+{
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  font-style: inherit;
+}
+.link:hover{
+  cursor: pointer;
+  opacity: 0.4;
+}
+.logo
+{
+  margin-left: 50px;
+  margin-right: 1000px;
+  font-size: 26px;
+}
+
+.section
+{
+  /* margin-bottom: 100px; */
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  margin-top: auto;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.sub{
+  margin-left: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.image img{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+
+.heading{
+  margin-bottom: 20px;
+  font-style: unset;
+}
+
+.para{
+  margin-bottom: 40px;
+  font-style: oblique;
+  font-size: 20px;
+
+}
+
+
+.button {
+    width: 170px;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+    background-color: #3882f6;
+    border: none;
+    margin-top: 40px;
+
+}
+button:hover{
+  cursor: pointer;
+  opacity: 0.6;
+}
+.two{
+    padding: 16px;
+    
+}
+
+  
+.title {
+  margin-left: 700px;
+  font-size: 30px;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  }
+  
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  text-align: center;
+  }
+  
+.info {
+  max-width: 200px;
+  }
+.container img{
+  border-radius: 10px;
+}
+.text{
+  font-style: light italic;
+  font-weight: bold;
+}
+.section2{
+  font-size: 30px;
+  padding-left:400px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin-top: 50px;
+  background-color: #e5e7eb;
+}
+.section3{
+  background-color: black;
+  color: aliceblue;
+  border-radius: 10px;
+  margin: 50px;
+
+}
+.call{
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  padding-top: 20px;
+}
+.line{
+  /* display: flex;
+  justify-content: center; */
+  margin-left: 500px;
+  margin-top: 20px;
+  font-size: large;
+}
+.button1 {
+  width: 170px;
+  height: 40px;
+  border-radius: 8px;
+  color: white;
+  background-color: #3882f6;
+  border: none;
+  margin-top: 30px;
+  margin-left: 630px;
+  margin-bottom: 20px;
+
+}
+button1:hover{
+cursor: pointer;
+opacity: 0.6;
+}
+
+.footer{
+  background-color: #1f2937;
+  color: white;
+  padding: 50px;
+}
+.copy{
+  margin-left: 600px;
+}
